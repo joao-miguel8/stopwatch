@@ -10,25 +10,29 @@
   <title>stopwatch</title>
 </head>
 <body>
-<section class="stop-watch">
-  <h2>Stopwatch</h2>
-  <div class="timer">
-    <h4>00:00</h4>
+<div class="stop-watch-wrapper">
+  <div class="stop-watch-wrapper__stop-watch">
+    <h2>Stopwatch</h2>
+    <div class="timer">
+      <h4>00:00</h4>
+    </div>
+    <div class="stop-watch__buttons-container">
+      <button class="lap-btn" >Lap</button>
+      <button class="reset-btn" >Reset</button>
+      <button class="stop-btn">Stop</button>
+      <button class="start-btn" >Start</button>
+    </div>
   </div>
-  <button class="lap-btn" >Lap</button>
-  <button class="reset-btn" >Reset</button>
-  <button class="stop-btn">Stop</button>
-  <button class="start-btn" >Start</button>
-</section>
-<section class="stopWatch lap-log">
-  <div class="lap-info">
-    <h4 class="lapcount">1</h4>
-    <span>013:22</span>
+  <div class="stop-watch-lap-log">
+    <div class="stop-watch-lap-log__lap-info">
+      <h4 class="lap-info__lap-count">1</h4>
+      <span>13:22</span>
+    </div>
+    <div class="stop-watch-lap-log__lap-info">
+      <h4 class="lap-info__lap-count">2</h4>
+      <span>01:14:22</span>
+    </div>
   </div>
-  <div class="lap-info">
-    <h4 class="lapcount">2</h4>
-    <span>1:31:22</span>
-  </div>
-</section>
+</div>
 </body>
 </html>
