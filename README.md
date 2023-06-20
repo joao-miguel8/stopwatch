@@ -4,7 +4,7 @@ Stopwatch Application challenge stopwatch with some basic functionality
 #### Specifications:
 1. User can start timer with start functionality
 2. User can stop timer with stop functionality
-3. 2. User can reset timer with stop functionality
+3. User can reset timer with stop functionality
 4. User can make a time log entry with log functionality
 ---------------- 
 #### Project challenges:
